@@ -8,17 +8,6 @@ body {
     h1, h2 {
         font-family: 'playfair', serif;
     }
-    @media (max-width: 900px) {}
-  body {
-    overflow: hidden;
-  }
-    
-@media (max-width: 600px) {
-  body {
-    overflow: hidden;
-  }
-}
-
 }
 
 :root {
@@ -330,9 +319,6 @@ nav ul li a:hover::after {
 
 /* --- RESPONSIVE MARQUEE --- */
 @media (max-width: 900px) {
-.hero{
-    overflow: hidden;
-  }
   .hero-scroll,
   .tool-icons {
     gap: 10px;
@@ -345,24 +331,9 @@ nav ul li a:hover::after {
     height: 45px;
     padding: 0 10px;
   }
-    .scroll-item{
-    height: 50px;
-    padding: 0 6px;
-    min-width: 180px;
-  }
-  .tool-icons span {
-    height: 50px;
-    padding: 0 6px;
-    min-width: 200px;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 600px) {
-    .hero{
-    overflow: hidden;
-  }
   .hero-scroll,
   .tool-icons {
     gap: 5px;
@@ -379,7 +350,7 @@ nav ul li a:hover::after {
   .tool-icons iconify-icon {
     font-size: 18px;
   }
-    .scroll-item{
+/*     .scroll-item{
     height: 50px;
     padding: 0 6px;
     min-width: 180px;
@@ -397,7 +368,7 @@ nav ul li a:hover::after {
   }
   .hero-cards {
     gap: 0.5rem;
-  }
+  } */
 }
 
 
