@@ -320,6 +320,9 @@ nav ul li a:hover::after {
 
 /* --- RESPONSIVE MARQUEE --- */
 @media (max-width: 900px) {
+.hero{
+    overflow: hidden;
+  }
   .hero-scroll,
   .tool-icons {
     gap: 10px;
@@ -335,7 +338,7 @@ nav ul li a:hover::after {
     .scroll-item{
     height: 50px;
     padding: 0 6px;
-    min-width: 200px;
+    min-width: 180px;
   }
   .tool-icons span {
     height: 50px;
@@ -347,6 +350,9 @@ nav ul li a:hover::after {
 }
 
 @media (max-width: 600px) {
+    .hero{
+    overflow: hidden;
+  }
   .hero-scroll,
   .tool-icons {
     gap: 5px;
@@ -366,12 +372,12 @@ nav ul li a:hover::after {
     .scroll-item{
     height: 50px;
     padding: 0 6px;
-    min-width: 200px;
+    min-width: 180px;
   }
   .tool-icons span {
     height: 50px;
     padding: 0 6px;
-    min-width: 200px;
+    min-width: 180px;
     align-items: center;
     justify-content: center;
   }
