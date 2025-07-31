@@ -8,6 +8,16 @@ body {
     h1, h2 {
         font-family: 'playfair', serif;
     }
+    @media (max-width: 900px) {}
+  body {
+    overflow: hidden;
+  }
+    
+@media (max-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+}
 
 }
 
